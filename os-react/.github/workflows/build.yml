@@ -71,3 +71,4 @@ name: Hosting Static Website
         --src-dir ./build --content-type text/plain --exclude *.js --
         exclude *.html --exclude *.jpg --exclude *.css --exclude
         ./build/manifest.json --overwrite
+        
