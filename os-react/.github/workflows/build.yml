@@ -70,5 +70,5 @@ name: Hosting Static Website
         overwrite
         oci os object bulk-upload -bn ${{secrets.OCI_BUCKET}}
         --src-dir ./build --content-type text/plain --exclude *.js --
-        exclude *.html --exclude *.jpg --exclude *.css --exclude
+        exclude *.html --exclude *.jpg --exclude *.css --exclude   
         ./build/manifest.json --overwrite
